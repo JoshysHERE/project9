@@ -21,6 +21,8 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
   ## Description
   ${data.description}
+  ## Deployed Application URL
+  ${data.link}
 ## Table of Contents
 * [Installation](#installation)
 * [Contributors](#contributors)

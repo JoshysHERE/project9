@@ -16,4 +16,4 @@
   ## Test
   None
   ## Questions
-  Please send your questions [here](mailto:undefined?subject=[GitHub]%20Dev%20Connect) or visit [github/undefined](https://github.com/undefined).
+  Please send your questions [here](mailto:undefined?subject=[GitHub]%20JoshysHERE%20) or visit [github/JoshysHERE](https://github.com/JoshysHERE).
