@@ -25,6 +25,13 @@ const questions = [
       message: 'Project Description?',
     },
     {
+
+        type: "input",
+        name: "link",
+        message: "Please provide a URL where a user can access your deployed application!"
+      },
+      {
+
         type: 'input',
         name: 'installation',
         message: 'Installation?',
@@ -43,13 +50,19 @@ const questions = [
       {
         type: 'input',
         name: 'tests',
-        message: 'Tests?',
+        message: 'tests?',
       },
       {
         type: 'input',
         name: 'questions',
         message: 'Questions?',
       },
+      {
+      type: "input",
+      name: "email",
+      message: "Provide a valid email address.",
+    },
+    
 ];
 
 

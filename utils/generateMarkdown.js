@@ -26,7 +26,7 @@ function generateMarkdown(data) {
 ## Table of Contents
 * [Installation](#installation)
 * [Contributors](#contributors)
-* [Test](#test)
+* [Tests](#tests)
 * [Questions](#questions)
   ## Installation
   ${data.installation}
@@ -34,8 +34,8 @@ function generateMarkdown(data) {
   ${data.usage}
   ## Contributors
   ${data.contributors}
-  ## Test
-  ${data.test}
+  ## Tests
+  ${data.tests}
   ## Questions
   Please send your questions Here! 
 `;
