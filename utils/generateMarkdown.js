@@ -1,14 +1,15 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-if (license !== "none") {
-  return ;
-}
-return "";
+  if (license !== "none") {
+    return `![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+  }
+  return "";
 }
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {}
+
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -20,16 +21,21 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
   ## Description
   ${data.description}
-  ## Languages & Dependencies
+## Table of Contents
+* [Installation](#installation)
+* [Contributors](#contributors)
+* [Test](#test)
+* [Questions](#questions)
+  ## Installation
   ${data.installation}
   ## How to Use This Application:
   ${data.usage}
   ## Contributors
   ${data.contributors}
-  ## Testing
+  ## Test
   ${data.test}
   ## Questions
-  Please send your questions [here]
+  Please send your questions Here! 
 `;
 }
 
