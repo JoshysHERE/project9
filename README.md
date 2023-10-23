@@ -17,7 +17,8 @@ n/a
 ## How to Contribute
 n/a
 ## Tests
-### GitHub Pages Link: https://joshyshere.github.io/joshsportfolio/
 
-### Github Repo Link:  https://github.com/JoshysHERE/joshsportfolio/
+### GitHub Pages Link: 
+
+### Github Repo Link:  
 
