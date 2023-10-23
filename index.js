@@ -4,53 +4,56 @@ const fs = require('fs');
 const path = require("path");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-inquirer
-  .prompt([
-    {
+
+const questions = [
+{
+
       type: 'input',
-      name: 'name',
+      name: 'title',
       message: 'Project Title?',
     },
     {
+      type: 'checkbox',
+      name: 'license',
+      message: 'License?',
+      choices: ["MIT", "APACHE2.0", "Boost1.0", "MPL2.0", "BSD2", "BSD3", "none"],
+   
+    },
+    {
       type: 'input',
-      name: 'name',
+      name: 'description',
       message: 'Project Description?',
     },
     {
         type: 'input',
-        name: 'name',
+        name: 'installation',
         message: 'Installation?',
       },
       {
         type: 'input',
-        name: 'name',
+        name: 'usage',
         message: 'Usage?',
       },
       {
-        type: 'checkbox',
-        name: 'name',
-        message: 'License?',
-        choices: ["MIT", "APACHE2.0", "Boost1.0", "MPL2.0", "BSD2", "BSD3", "none"],
+        type: 'input',
+        name: 'contributors',
+        message: 'Contributors?',
+        default:"",
       },
       {
         type: 'input',
-        name: 'name',
-        message: 'Contributing?',
-      },
-      {
-        type: 'input',
-        name: 'name',
+        name: 'tests',
         message: 'Tests?',
       },
       {
         type: 'input',
-        name: 'name',
+        name: 'questions',
         message: 'Questions?',
       },
-    ]);
+];
 
 // TODO: Create an array of questions for user input
-const questions = ['Project Title?, Project Description?, Install?, Usage?, License?, Contributing?, Tests?, Questions?'];
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
