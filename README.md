@@ -9,8 +9,7 @@
 * [Contributors](#contributors)
 * [Tests](#tests)
 * [Questions](#questions)
-  
-' [License](#license)
+* [License](#license)
 
   ## Installation
   Inquirer

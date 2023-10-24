@@ -40,6 +40,7 @@ function generateMarkdown(data) {
 * [Contributors](#contributors)
 * [Tests](#tests)
 * [Questions](#questions)
+  ## License
   ${renderLicenseLink(data.license)}
   ## Installation
   ${data.installation}
