@@ -1,9 +1,9 @@
 # Project Nine: Readme Generator
   ![Github license](https://img.shields.io/badge/license--red.svg)
 
-  ## Description
+  ## Description:
   Professional Readme Generator
-  ## Deployed Application URL
+  ## Deployed Application URL:
   https://joshyshere.github.io/project9/
 ## Table of Contents
 * [Installation](#installation)
