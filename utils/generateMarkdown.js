@@ -40,6 +40,7 @@ function generateMarkdown(data) {
 * [Contributors](#contributors)
 * [Tests](#tests)
 * [Questions](#questions)
+  ${renderLicenseLink(data.license)}
   ## Installation
   ${data.installation}
   ## How to Use This Application:
@@ -50,6 +51,7 @@ function generateMarkdown(data) {
   ${data.tests}
   ## Questions
   Need to reach out? [Click Here](mailto:JoshysHERE@gmail.com?subject=JoshysHERE'sReadme) To Send Me An Email!
+  ${renderLicenseSection(data.license)}
 `;
 }
 
