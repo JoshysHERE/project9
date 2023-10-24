@@ -37,7 +37,7 @@ function generateMarkdown(data) {
   ## Tests
   ${data.tests}
   ## Questions
-  Please send your questions Here! 
+  Need to reach out? [Click Here](mailto:JoshysHERE@gmail.com?subject=JoshysHERE'sReadme) To Send Me An Email!
 `;
 }
 
