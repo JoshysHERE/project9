@@ -14,7 +14,7 @@
   ## Installation
   Inquirer
   ## How to Use This Application:
-  N/A
+  Video Link: https://watch.screencastify.com/v/K6vUvaJYJ6mhQkq4EmYS
   ## Contributors
   JoshysHERE Github: https://github.com/JoshysHERE
   ## Tests
